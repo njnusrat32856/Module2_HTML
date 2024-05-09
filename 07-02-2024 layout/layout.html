@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #header{
+            height: 12vh;
+            width: 100%;
+            background-color: rgb(3, 205, 40);
+        }
+        #content{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(252, 222, 176);
+        }
+        #footer{
+            height: 30vh;
+            width: 100%;
+            background-color: rgb(130, 130, 130);
+        }
+        nav ul{
+            list-style: none;
+            float: right;
+        }
+        nav ul li{
+            margin: 20px 30px 0px 20px;
+            float: left;
+        }
+        nav img{
+            width: 50px;
+            margin: 8px 0px 0px 10px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 25px;
+        }
+        nav a:hover{
+            background-color: tomato;
+            color: #fff;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <a href="home.html" target="content"><img src="image/idb-bisew.png" alt="IsDB-BISEW"></a>
+            <ul>
+                <li><a href="home.html" target="content">Home</a></li>
+                <li><a href="about.html" target="content">About</a></li>
+                <li><a href="contact.html" target="content">Contact</a></li>
+                <li><a href="galary.html" target="content">Galary</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+
+        <iframe src="" frameborder="0" name="content" width="100%" height="100%"></iframe>
+        
+    </div>
+    <div id="footer">
+        
+    </div>
+</body>
+</html>
